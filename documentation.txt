@@ -1,0 +1,20 @@
+*** Pokemon Website ***
+
+======== Fetch data from API ========
+-> Store the API into a variable
+-> Create a function Which fatch the API i.e. fetchPokemon()
+-> We using a API which provide an array of pokemon
+-> Each pokemon have it's own API
+-> We need to fetch them again
+-> Using map we we get each API and fetch them and find the data & returning as a promise
+-> Now retrieve all data from promise i.e Promise.all
+-> Data can be modify so we store them into a state variable
+-> Use a loading state variable when API is loading show loading otherwise render the document
+-> Now using the map function we access the data which is store into the state variable
+
+======== Search Card by name ========
+-> Set a state variable which track the current input i.e [search,setSearch]
+-> Filter the card by name and return the match card
+-> When not searching return all card otherwise return match card
+-> Now we use searchData.map() insted if pokemon.map()
+-> Because we want to rendering specific card
